@@ -68,10 +68,10 @@ sup{
     font-size: 10px;
 }
 .navbar2{
-    margin-left: 700px;
+    margin-left: 85%;
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-right: 50px;
     margin-top: -12px;
     
@@ -100,7 +100,7 @@ sup{
     font-size: 15px;
 }
 .container p{
-    font-size: 10px;
+    font-size: 20px;
     color: lightslategrey;
 }
 .container span{
@@ -109,36 +109,44 @@ sup{
 }
 .container1{
     display: flex;
-    justify-content: space-around;
     margin-top: 20px;
-    
+    justify-content: center;
+    justify-content: space-around;
+    /* margin: 5%; */
 }
 .container1 img{
-    width: 150px;
-    height: 200px;
+    width: 100%;
+    height: 55vh;
+    margin: 5%;
+    
 }
 .container2{
     display: flex;
-    justify-content: space-around;
     margin-top: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    /* margin: 5%; */
 }
 .container2 img{
-    width: 150px;
-    height: 200px;
+    width: 100%;
+    height: 55vh;
+    margin: 5%;
 }
 .container3{
     display: flex;
-    justify-content: space-around;
     margin-top: 20px;
+    justify-content: center;
+    justify-content: space-around;
 }
 .container3 img{
-    width: 150px;
-    height: 180px;
+    width: 100%;
+    height: 55vh;
+    margin: 5%;
 }
 .container3 a{
     text-decoration: none;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
     /* margin-left: 20px; */
 }
 .container3 p{
@@ -147,7 +155,7 @@ sup{
 .container2 a{
     text-decoration: none;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
     /* margin-left: 20px; */
 }
 .container2 p{
@@ -156,7 +164,7 @@ sup{
 .container1 a{
     text-decoration: none;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
     /* margin-left: 20px; */
 }
 .container1 p{
@@ -178,14 +186,14 @@ sup{
 .container4 button{
     padding: 5px;
     text-decoration: none;
-    font-size: 8px;
+    font-size: 12px;
     border: 2px solid dodgerblue;
     width: 150px;
     border-radius: 5px;
     /* border-color: dodgerblue; */
 }
 .container4 button:hover{
-    background-color: black;
+    background: black;
     color: white;
     border: 1px solid black;
 }
@@ -214,17 +222,17 @@ sup{
 }
 .ppp{
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 15px;
 }
 .pp{
-    font-size: 10px;
+    font-size: 15px;
     color: gray;
 }
 input{
     margin-top: 20px;
     padding: 5px;
-    width: 250px;
-    font-size: 12px;
+    width: 270px;
+    font-size: 30px;
     border-color: blue;
     border: none;
     outline: none;
@@ -272,8 +280,9 @@ input:hover{
     color: black;
 }
 .dd{
-    margin-right: 430px;
-    font-size: 10px;
+    margin-right: 70%;
+    float: left;
+    font-size: 15px;
     margin-top: 3px;
     color: gray;
 }
